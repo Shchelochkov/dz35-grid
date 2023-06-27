@@ -1,0 +1,64 @@
+
+.grid{
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    background-color: rgb(55, 41, 41);
+    
+    grid-template-areas: 
+    'a1 b1 c1 m1'
+    'e1 e1 c1 d1'
+    'w1 w1 t1 d1'
+    'w1 w1 k1 k1';
+    font-size: 2em;
+    height: 500px;
+    margin-top: 100px;
+}
+.grid div{
+    border-radius: 5px;
+}
+
+.a1{
+grid-area: a1;
+background-size: cover;
+background-image: url(img/2.jpg);}
+
+.b1{
+grid-area: b1;
+background-size: cover;
+background-image: url(img/1.jpeg)}
+
+.c1{
+grid-area: c1;
+background-size: cover;
+background-image: url(img/3.jpg);}
+
+.d1{
+grid-area: d1;
+background-size: cover;
+background-image: url(img/4.jpeg);}
+
+.e1{
+grid-area: e1;
+background-size: cover;
+background-image: url(img/5.jpeg);}
+
+.w1{
+grid-area: w1;
+background-size: cover;
+background-image: url(img/6.jpeg);}
+
+.t1{
+grid-area: t1;
+background-size: cover;
+background-image: url(img/7.jpg);}
+
+.k1{
+grid-area: k1;
+background-size: cover;
+background-image: url(img/8.jpg);}
+
+.m1{
+grid-area: m1;
+background-size: cover;
+background-image: url(img/9.jpeg);}
